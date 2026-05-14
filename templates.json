@@ -1,0 +1,64 @@
+{
+  "version": "1.0.0",
+  "generated_at": "2026-05-13T00:00:00Z",
+  "templates": [
+    {
+      "id": "pt-hero-001",
+      "title": "Bold Hero Section",
+      "type": "section",
+      "category": "hero",
+      "thumbnail": "https://your-cdn.com/thumbnails/hero-001.jpg",
+      "preview_url": "https://your-preview-site.com/templates/hero-001",
+      "tags": ["hero", "landing", "bold", "cta"],
+      "is_pro": false,
+      "created_at": "2026-01-01",
+      "keywords": ["hero", "header", "banner", "above the fold"]
+    },
+    {
+      "id": "pt-pricing-001",
+      "title": "Pricing Table – 3 Column",
+      "type": "section",
+      "category": "pricing",
+      "thumbnail": "https://your-cdn.com/thumbnails/pricing-001.jpg",
+      "preview_url": "https://your-preview-site.com/templates/pricing-001",
+      "tags": ["pricing", "table", "saas"],
+      "is_pro": false,
+      "created_at": "2026-01-02",
+      "keywords": ["pricing", "plans", "subscription"]
+    },
+    {
+      "id": "pt-landing-001",
+      "title": "SaaS Landing Page",
+      "type": "page",
+      "category": "landing",
+      "thumbnail": "https://your-cdn.com/thumbnails/landing-001.jpg",
+      "preview_url": "https://your-preview-site.com/templates/landing-001",
+      "tags": ["landing", "saas", "full-page"],
+      "is_pro": true,
+      "created_at": "2026-01-03",
+      "keywords": ["landing page", "saas", "startup"]
+    }
+  ],
+  "tags": {
+    "hero": "Hero",
+    "landing": "Landing",
+    "bold": "Bold",
+    "cta": "CTA",
+    "pricing": "Pricing",
+    "table": "Table",
+    "saas": "SaaS",
+    "full-page": "Full Page"
+  },
+  "categories": {
+    "hero": "Hero Sections",
+    "pricing": "Pricing",
+    "landing": "Landing Pages",
+    "portfolio": "Portfolio",
+    "blog": "Blog",
+    "ecommerce": "eCommerce"
+  },
+  "type_tags": {
+    "section": ["hero", "pricing", "saas"],
+    "page": ["landing", "saas", "full-page"]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "pt-hero-001",
+  "title": "Bold Hero Section",
+  "type": "section",
+  "thumbnail": "https://your-cdn.com/thumbnails/hero-001.jpg",
+  "preview_url": "https://your-preview-site.com/templates/hero-001",
+  "content": [
+    {
+      "id": "abc12345",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#0f0f0f",
+        "padding": {
+          "unit": "px",
+          "top": "120",
+          "right": "60",
+          "bottom": "120",
+          "left": "60",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "def67890",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "content_position": "middle"
+          },
+          "elements": [
+            {
+              "id": "ghi11111",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Build Something Great",
+                "title_color": "#ffffff",
+                "typography_font_size": { "unit": "px", "size": 64 },
+                "typography_font_weight": "700",
+                "align": "center"
+              }
+            },
+            {
+              "id": "ghi22222",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>A powerful Elementor addon that supercharges your workflow.</p>",
+                "align": "center",
+                "text_color": "#a0a0a0"
+              }
+            },
+            {
+              "id": "ghi33333",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Get Started Free",
+                "align": "center",
+                "background_color": "#6c63ff",
+                "button_text_color": "#ffffff",
+                "border_radius": { "unit": "px", "top": 8, "right": 8, "bottom": 8, "left": 8 }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": {}
+}
